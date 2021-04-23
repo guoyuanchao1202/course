@@ -19,7 +19,7 @@ func UnmarshalConf(conf *config.TotalConf) error {
 	if env == "test" {
 		confByt, err = ioutil.ReadFile("./conf/myConf_test.yml")
 	} else {
-		confByt, err = ioutil.ReadFile("./file/myConf_pro.yml")
+		confByt, err = ioutil.ReadFile("./conf/myConf_pro.yml")
 	}
 	if err != nil {
 		return err
