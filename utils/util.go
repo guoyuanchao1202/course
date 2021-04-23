@@ -15,9 +15,8 @@ func UnmarshalConf(conf *config.TotalConf) error {
 	var err error
 	if !ok {
 		confByt, err = ioutil.ReadFile("./conf/myConf_pro.yml")
-		//return fmt.Errorf("Not Found ENV: CUR_ENV")
 		log.Println("Not Found ENV: CUR_ENV")
-		return nil
+		return yaml.Unmarshal(confByt, conf)
 	}
 	if env == "test" {
 		confByt, err = ioutil.ReadFile("./conf/myConf_test.yml")
