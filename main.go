@@ -19,9 +19,9 @@ import (
 )
 
 func main() {
-	str, ok := os.LookupEnv("CUR_ENV")
+	_, ok := os.LookupEnv("CUR_ENV")
 	if ok {
-		fmt.Println(str)
+		log.Println("no CUR_ENV")
 	}
 	logs.InitLog()             // 初始化日志
 	log.Println("Init config") // 读取配置内容
