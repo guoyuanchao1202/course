@@ -2,6 +2,7 @@ package utils
 
 import (
 	"course/config"
+	"fmt"
 	"gopkg.in/yaml.v2"
 	"io/ioutil"
 	"log"
@@ -14,9 +15,8 @@ func UnmarshalConf(conf *config.TotalConf) error {
 	var confByt []byte
 	var err error
 	if !ok {
-		confByt, err = ioutil.ReadFile("./conf/myConf_pro.yml")
 		log.Println("Not Found ENV: CUR_ENV")
-		return yaml.Unmarshal(confByt, conf)
+		return fmt.Errorf("NO CUR_ENV")
 	}
 	log.Println("ENV: " + env)
 	if env == "test" {
