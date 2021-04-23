@@ -15,14 +15,9 @@ import (
 	"github.com/gin-contrib/sessions/cookie"
 	"github.com/gin-gonic/gin"
 	"log"
-	"os"
 )
 
 func main() {
-	_, ok := os.LookupEnv("CUR_ENV")
-	if ok {
-		log.Println("no CUR_ENV")
-	}
 	logs.InitLog()             // 初始化日志
 	log.Println("Init config") // 读取配置内容
 	totalConf := &config.TotalConf{}
