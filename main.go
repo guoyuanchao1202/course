@@ -66,7 +66,7 @@ func getSessionMidWare() gin.HandlerFunc {
 func getAuthMidWare() gin.HandlerFunc {
 	return func(ctx *gin.Context) {
 		// 如果是登陆路由，直接返回
-		if ctx.FullPath() == "/login" || ctx.FullPath() == "/addroot" {
+		if ctx.FullPath() == "/common/login" || ctx.FullPath() == "/addroot" {
 			return
 		}
 		session := sessions.Default(ctx)
