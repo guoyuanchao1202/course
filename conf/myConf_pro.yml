@@ -1,0 +1,10 @@
+mysql:
+  DBName: "graduationcourse"
+  DBHost: "172.17.0.16"
+  DBPort: "3306"
+  DBUser: "root"
+  DBPassWord: "IreliaNF66"
+datapath:
+  PathName: "../data"
+
+

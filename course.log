@@ -1,0 +1,469 @@
+2021/04/01 15:34:27 logs.go:24: init log success
+2021/04/01 15:38:13 logs.go:24: init log success
+2021/04/01 15:38:13 main.go:18: Init config
+2021/04/01 15:38:13 main.go:25: Init MySQL
+2021/04/01 15:38:13 main.go:34: Init routers
+2021/04/01 16:05:22 logs.go:24: init log success
+2021/04/01 16:05:22 main.go:20: Init config
+2021/04/01 16:05:22 main.go:27: Init MySQL
+2021/04/01 16:05:22 main.go:38: Init routers
+2021/04/01 16:05:41 logs.go:24: init log success
+2021/04/01 16:05:42 main.go:20: Init config
+2021/04/01 16:05:42 main.go:27: Init MySQL
+2021/04/01 16:05:42 main.go:38: Init routers
+2021/04/01 16:08:19 logs.go:24: init log success
+2021/04/01 16:08:19 main.go:20: Init config
+2021/04/01 16:08:19 main.go:27: Init MySQL
+2021/04/01 16:08:19 main.go:38: Init routers
+2021/04/01 16:08:39 logs.go:24: init log success
+2021/04/01 16:08:39 main.go:20: Init config
+2021/04/01 16:08:39 main.go:27: Init MySQL
+2021/04/01 16:08:39 main.go:38: Init routers
+2021/04/01 16:08:39 main.go:42: gin engine run failed:  listen tcp: address 8080: missing port in address
+2021/04/01 16:08:58 logs.go:24: init log success
+2021/04/01 16:08:58 main.go:20: Init config
+2021/04/01 16:08:58 main.go:27: Init MySQL
+2021/04/01 16:08:58 main.go:38: Init routers
+2021/04/01 16:15:09 logs.go:24: init log success
+2021/04/01 16:15:09 main.go:20: Init config
+2021/04/01 16:15:09 main.go:27: Init MySQL
+2021/04/01 16:15:09 main.go:38: Init routers
+2021/04/01 16:15:36 login.go:15: query user [    ] failed:  Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= ?)) ORDER BY `users`.`id` ASC LIMIT 1' at line 1
+2021/04/01 16:16:54 logs.go:24: init log success
+2021/04/01 16:16:54 main.go:20: Init config
+2021/04/01 16:16:54 main.go:27: Init MySQL
+2021/04/01 16:16:54 main.go:38: Init routers
+2021/04/01 16:17:15 login.go:19: no user [    ]
+2021/04/01 16:17:24 login.go:31: login failed:  no user [], please retry !
+2021/04/01 16:38:17 logs.go:24: init log success
+2021/04/01 16:38:17 main.go:20: Init config
+2021/04/01 16:38:17 main.go:27: Init MySQL
+2021/04/01 16:38:17 main.go:38: Init routers
+2021/04/01 16:38:53 logs.go:24: init log success
+2021/04/01 16:38:53 main.go:20: Init config
+2021/04/01 16:38:53 main.go:27: Init MySQL
+2021/04/01 16:38:53 main.go:38: Init routers
+2021/04/01 20:44:44 logs.go:24: init log success
+2021/04/01 20:44:44 main.go:19: Init config
+2021/04/01 20:44:44 main.go:26: Init MySQL
+2021/04/01 20:44:44 main.go:34: Init routers
+2021/04/01 20:46:28 login.go:23: root  login success
+2021/04/01 20:53:01 logs.go:24: init log success
+2021/04/01 20:53:01 main.go:19: Init config
+2021/04/01 20:53:01 main.go:26: Init MySQL
+2021/04/01 20:53:01 main.go:34: Init routers
+2021/04/01 20:53:05 login.go:23: root  login success
+2021/04/01 20:57:44 logs.go:24: init log success
+2021/04/01 20:57:44 main.go:19: Init config
+2021/04/01 20:57:44 main.go:26: Init MySQL
+2021/04/01 20:57:44 main.go:34: Init routers
+2021/04/01 20:57:46 count_manage.go:106: add user [ zhangsan  ] failed:  invalid statusCode: %!s(int=0). only allowed [%!s(int=1) | %!s(int=-1)]
+2021/04/01 20:59:08 logs.go:24: init log success
+2021/04/01 20:59:08 main.go:19: Init config
+2021/04/01 20:59:08 main.go:26: Init MySQL
+2021/04/01 20:59:08 main.go:34: Init routers
+2021/04/01 20:59:59 logs.go:24: init log success
+2021/04/01 20:59:59 main.go:19: Init config
+2021/04/01 20:59:59 main.go:26: Init MySQL
+2021/04/01 20:59:59 main.go:34: Init routers
+2021/04/01 21:00:21 logs.go:24: init log success
+2021/04/01 21:00:21 main.go:19: Init config
+2021/04/01 21:00:21 main.go:26: Init MySQL
+2021/04/01 21:00:21 main.go:34: Init routers
+2021/04/01 21:02:11 logs.go:24: init log success
+2021/04/01 21:02:11 main.go:19: Init config
+2021/04/01 21:02:11 main.go:26: Init MySQL
+2021/04/01 21:02:11 main.go:34: Init routers
+2021/04/01 21:15:09 logs.go:24: init log success
+2021/04/01 21:15:09 main.go:19: Init config
+2021/04/01 21:15:09 main.go:26: Init MySQL
+2021/04/01 21:15:09 main.go:34: Init routers
+2021/04/01 21:17:55 logs.go:24: init log success
+2021/04/01 21:17:55 main.go:20: Init config
+2021/04/01 21:17:55 main.go:27: Init MySQL
+2021/04/01 21:17:55 main.go:35: Init routers
+2021/04/01 22:11:17 logs.go:24: init log success
+2021/04/01 22:11:17 main.go:21: Init config
+2021/04/01 22:11:17 main.go:28: Init MySQL
+2021/04/01 22:11:17 main.go:36: Init routers
+2021/04/01 22:12:55 logs.go:24: init log success
+2021/04/01 22:12:55 main.go:21: Init config
+2021/04/01 22:12:55 main.go:28: Init MySQL
+2021/04/01 22:12:55 main.go:36: Init routers
+2021/04/01 22:13:35 login.go:26: Unmarshal LoginReq failed:  invalid character '/' looking for beginning of value
+2021/04/02 11:51:57 logs.go:24: init log success
+2021/04/02 11:51:57 main.go:21: Init config
+2021/04/02 11:51:57 main.go:28: Init MySQL
+2021/04/02 11:51:57 main.go:36: Init routers
+2021/04/02 11:52:58 logs.go:24: init log success
+2021/04/02 11:52:58 main.go:21: Init config
+2021/04/02 11:52:58 main.go:28: Init MySQL
+2021/04/02 11:52:58 main.go:36: Init routers
+2021/04/02 11:55:35 logs.go:24: init log success
+2021/04/02 11:55:35 main.go:21: Init config
+2021/04/02 11:55:35 main.go:28: Init MySQL
+2021/04/02 11:55:35 main.go:36: Init routers
+2021/04/02 12:08:30 logs.go:24: init log success
+2021/04/02 12:08:30 main.go:22: Init config
+2021/04/02 12:08:30 main.go:29: Init MySQL
+2021/04/02 12:08:30 main.go:35: Init dataPath
+2021/04/02 12:08:30 main.go:39: Init DataDir failed:  mkdir : The system cannot find the path specified.
+2021/04/02 12:09:44 logs.go:24: init log success
+2021/04/02 12:09:46 main.go:22: Init config
+2021/04/02 12:10:35 logs.go:24: init log success
+2021/04/02 12:10:36 main.go:22: Init config
+2021/04/02 12:10:41 main.go:29: Init MySQL
+2021/04/02 12:10:44 main.go:35: Init dataPath
+2021/04/02 12:10:54 main.go:45: Init routers
+2021/04/02 12:13:17 logs.go:24: init log success
+2021/04/02 12:13:20 main.go:22: Init config
+2021/04/02 12:13:21 main.go:29: Init MySQL
+2021/04/02 12:13:23 main.go:35: Init dataPath
+2021/04/02 12:13:28 main.go:45: Init routers
+2021/04/02 12:14:37 logs.go:24: init log success
+2021/04/02 12:14:41 main.go:22: Init config
+2021/04/02 12:14:41 main.go:29: Init MySQL
+2021/04/02 12:14:41 main.go:35: Init dataPath
+2021/04/02 12:14:41 main.go:45: Init routers
+2021/04/02 12:15:29 logs.go:24: init log success
+2021/04/02 12:15:52 logs.go:24: init log success
+2021/04/02 12:15:53 main.go:22: Init config
+2021/04/02 12:15:53 main.go:29: Init MySQL
+2021/04/02 12:15:53 main.go:35: Init dataPath
+2021/04/02 12:15:53 main.go:45: Init routers
+2021/04/02 12:16:14 logs.go:24: init log success
+2021/04/02 12:16:16 main.go:22: Init config
+2021/04/02 12:16:16 main.go:29: Init MySQL
+2021/04/02 12:16:19 main.go:35: Init dataPath
+2021/04/02 12:16:49 logs.go:24: init log success
+2021/04/02 12:16:50 main.go:22: Init config
+2021/04/02 12:16:50 main.go:29: Init MySQL
+2021/04/02 12:16:50 main.go:35: Init dataPath
+2021/04/02 12:16:50 main.go:45: Init routers
+2021/04/02 12:19:05 logs.go:24: init log success
+2021/04/02 12:19:07 main.go:22: Init config
+2021/04/02 12:19:08 main.go:29: Init MySQL
+2021/04/02 12:19:10 main.go:35: Init dataPath
+2021/04/02 12:19:15 main.go:45: Init routers
+2021/04/02 12:23:36 logs.go:24: init log success
+2021/04/02 12:23:45 main.go:22: Init config
+2021/04/02 12:23:47 main.go:29: Init MySQL
+2021/04/02 12:24:00 main.go:35: Init dataPath
+2021/04/02 12:24:05 main.go:45: Init routers
+2021/04/02 12:36:44 logs.go:24: init log success
+2021/04/02 12:36:47 main.go:22: Init config
+2021/04/02 12:36:47 main.go:29: Init MySQL
+2021/04/02 12:36:47 main.go:35: Init dataPath
+2021/04/02 12:36:47 main.go:45: Init routers
+2021/04/02 12:39:37 logs.go:24: init log success
+2021/04/02 12:39:58 main.go:22: Init config
+2021/04/02 12:39:58 main.go:29: Init MySQL
+2021/04/02 12:39:58 main.go:35: Init dataPath
+2021/04/02 12:39:58 main.go:45: Init routers
+2021/04/13 09:58:48 logs.go:24: init log success
+2021/04/13 09:58:48 main.go:22: Init config
+2021/04/13 09:58:48 main.go:29: Init MySQL
+2021/04/13 09:58:48 main.go:35: Init dataPath
+2021/04/13 09:58:48 main.go:45: Init routers
+2021/04/13 09:59:43 logs.go:24: init log success
+2021/04/13 09:59:43 main.go:22: Init config
+2021/04/13 09:59:43 main.go:29: Init MySQL
+2021/04/13 09:59:43 main.go:35: Init dataPath
+2021/04/13 09:59:43 main.go:45: Init routers
+2021/04/13 09:59:47 login.go:26: Unmarshal LoginReq failed:  unexpected end of JSON input
+2021/04/13 09:59:52 login.go:19: no user [    ]
+2021/04/13 09:59:52 login.go:32: login failed:  no user [], please retry !
+2021/04/13 10:59:47 logs.go:24: init log success
+2021/04/13 10:59:47 main.go:22: Init config
+2021/04/13 10:59:47 main.go:29: Init MySQL
+2021/04/13 10:59:47 main.go:35: Init dataPath
+2021/04/13 10:59:47 main.go:45: Init routers
+2021/04/13 11:00:32 login.go:26: root  login failed
+2021/04/13 11:00:32 login.go:32: login failed:  login failed: passWd is incorrect !
+2021/04/13 11:00:41 login.go:26: root  login failed
+2021/04/13 11:00:41 login.go:32: login failed:  login failed: passWd is incorrect !
+2021/04/13 11:01:55 logs.go:24: init log success
+2021/04/13 11:01:55 main.go:22: Init config
+2021/04/13 11:01:55 main.go:29: Init MySQL
+2021/04/13 11:01:55 main.go:35: Init dataPath
+2021/04/13 11:01:55 main.go:45: Init routers
+2021/04/13 11:02:06 login.go:19: no user [  zhangsang  ]
+2021/04/13 11:02:16 login.go:32: login failed:  no user [zhangsang], please retry !
+2021/04/13 11:02:42 login.go:26: root  login failed
+2021/04/13 11:02:42 login.go:32: login failed:  login failed: passWd is incorrect !
+2021/04/13 11:02:46 login.go:23: root  login success
+2021/04/13 11:05:51 logs.go:24: init log success
+2021/04/13 11:05:51 main.go:22: Init config
+2021/04/13 11:05:51 main.go:29: Init MySQL
+2021/04/13 11:05:51 main.go:35: Init dataPath
+2021/04/13 11:05:51 main.go:45: Init routers
+2021/04/13 13:29:07 logs.go:24: init log success
+2021/04/13 13:29:07 main.go:22: Init config
+2021/04/13 13:29:07 main.go:29: Init MySQL
+2021/04/13 13:29:07 main.go:35: Init dataPath
+2021/04/13 13:29:07 main.go:45: Init routers
+2021/04/13 13:29:23 user.go:48: QueryUserByUserName failed:  record not found
+2021/04/13 13:29:58 data_query.go:34: DoQueryDataByCond failed:  record not found
+2021/04/13 13:32:05 logs.go:24: init log success
+2021/04/13 13:32:05 main.go:22: Init config
+2021/04/13 13:32:05 main.go:29: Init MySQL
+2021/04/13 13:32:05 main.go:35: Init dataPath
+2021/04/13 13:32:05 main.go:45: Init routers
+2021/04/13 13:32:50 logs.go:24: init log success
+2021/04/13 13:32:50 main.go:22: Init config
+2021/04/13 13:32:50 main.go:29: Init MySQL
+2021/04/13 13:32:50 main.go:35: Init dataPath
+2021/04/13 13:32:50 main.go:45: Init routers
+2021/04/13 13:33:58 login.go:23: root  login success
+2021/04/13 13:40:31 count_manage.go:111: add user [ zhangsan  ] failed:  invalid empTypeCode: %!s(int=1739590721074162434)
+2021/04/13 13:41:40 logs.go:24: init log success
+2021/04/13 13:41:40 main.go:22: Init config
+2021/04/13 13:41:40 main.go:29: Init MySQL
+2021/04/13 13:41:40 main.go:35: Init dataPath
+2021/04/13 13:41:40 main.go:45: Init routers
+2021/04/13 13:44:43 count_manage.go:111: add user [ weiqi  ] failed:  invalid departmentCode: %!s(int=4)
+2021/04/13 13:46:38 logs.go:24: init log success
+2021/04/13 13:46:38 main.go:22: Init config
+2021/04/13 13:46:38 main.go:29: Init MySQL
+2021/04/13 13:46:38 main.go:35: Init dataPath
+2021/04/13 13:46:38 main.go:45: Init routers
+2021/04/13 13:46:47 dal.go:32: query user failed:  Error 1241: Operand should contain 1 column(s)
+2021/04/13 13:46:47 root_countmanage.go:17: query user counts failed:  Error 1241: Operand should contain 1 column(s)
+2021/04/13 13:46:56 count_manage.go:34: doQuery user failed:  Error 1241: Operand should contain 1 column(s)
+2021/04/13 13:52:17 dal.go:32: query user failed:  Error 1241: Operand should contain 1 column(s)
+2021/04/13 13:52:29 root_countmanage.go:17: query user counts failed:  Error 1241: Operand should contain 1 column(s)
+2021/04/13 13:52:29 count_manage.go:34: doQuery user failed:  Error 1241: Operand should contain 1 column(s)
+2021/04/13 13:54:17 login.go:23: root  login success
+2021/04/13 13:57:57 logs.go:24: init log success
+2021/04/13 13:57:57 main.go:22: Init config
+2021/04/13 13:57:57 main.go:29: Init MySQL
+2021/04/13 13:57:57 main.go:35: Init dataPath
+2021/04/13 13:57:57 main.go:45: Init routers
+2021/04/13 14:29:26 logs.go:24: init log success
+2021/04/13 14:29:26 main.go:22: Init config
+2021/04/13 14:29:26 main.go:29: Init MySQL
+2021/04/13 14:29:26 main.go:35: Init dataPath
+2021/04/13 14:29:26 main.go:45: Init routers
+2021/04/13 14:40:00 logs.go:24: init log success
+2021/04/13 14:40:00 main.go:22: Init config
+2021/04/13 14:40:00 main.go:29: Init MySQL
+2021/04/13 14:40:00 main.go:35: Init dataPath
+2021/04/13 14:40:00 main.go:45: Init routers
+2021/04/13 14:41:33 root_countmanage.go:17: query user counts failed:  Error 1103: Incorrect table name ''
+2021/04/13 14:41:33 count_manage.go:34: doQuery user failed:  Error 1103: Incorrect table name ''
+2021/04/13 14:41:43 root_countmanage.go:17: query user counts failed:  Error 1103: Incorrect table name ''
+2021/04/13 14:41:47 count_manage.go:34: doQuery user failed:  Error 1103: Incorrect table name ''
+2021/04/13 14:43:30 logs.go:24: init log success
+2021/04/13 14:43:30 main.go:22: Init config
+2021/04/13 14:43:30 main.go:29: Init MySQL
+2021/04/13 14:43:30 main.go:35: Init dataPath
+2021/04/13 14:43:30 main.go:45: Init routers
+2021/04/13 14:44:51 logs.go:24: init log success
+2021/04/13 14:44:51 main.go:22: Init config
+2021/04/13 14:44:51 main.go:29: Init MySQL
+2021/04/13 14:44:51 main.go:35: Init dataPath
+2021/04/13 14:44:51 main.go:45: Init routers
+2021/04/13 14:51:25 logs.go:24: init log success
+2021/04/13 14:51:25 main.go:22: Init config
+2021/04/13 14:51:25 main.go:29: Init MySQL
+2021/04/13 14:51:25 main.go:35: Init dataPath
+2021/04/13 14:51:25 main.go:45: Init routers
+2021/04/13 15:04:27 data_manage.go:54: Unmarshal request failed:  unexpected end of JSON input
+2021/04/13 15:05:03 data_manage.go:61: upLoad failed:  request Content-Type isn't multipart/form-data
+2021/04/13 15:05:11 logs.go:24: init log success
+2021/04/13 15:05:11 main.go:22: Init config
+2021/04/13 15:05:11 main.go:29: Init MySQL
+2021/04/13 15:05:11 main.go:35: Init dataPath
+2021/04/13 15:05:11 main.go:45: Init routers
+2021/04/13 15:16:05 data_manage.go:54: Unmarshal request failed:  invalid character '-' in numeric literal
+2021/04/13 15:17:13 logs.go:24: init log success
+2021/04/13 15:17:13 main.go:22: Init config
+2021/04/13 15:17:13 main.go:29: Init MySQL
+2021/04/13 15:17:13 main.go:35: Init dataPath
+2021/04/13 15:17:13 main.go:45: Init routers
+2021/04/13 15:19:25 logs.go:24: init log success
+2021/04/13 15:19:25 main.go:22: Init config
+2021/04/13 15:19:25 main.go:29: Init MySQL
+2021/04/13 15:19:25 main.go:35: Init dataPath
+2021/04/13 15:19:25 main.go:45: Init routers
+2021/04/13 15:20:02 logs.go:24: init log success
+2021/04/13 15:20:02 main.go:22: Init config
+2021/04/13 15:20:02 main.go:29: Init MySQL
+2021/04/13 15:20:02 main.go:35: Init dataPath
+2021/04/13 15:20:02 main.go:45: Init routers
+2021/04/13 15:21:15 logs.go:24: init log success
+2021/04/13 15:21:15 main.go:22: Init config
+2021/04/13 15:21:15 main.go:29: Init MySQL
+2021/04/13 15:21:15 main.go:35: Init dataPath
+2021/04/13 15:21:15 main.go:45: Init routers
+2021/04/13 15:24:42 logs.go:24: init log success
+2021/04/13 15:24:42 main.go:22: Init config
+2021/04/13 15:24:42 main.go:29: Init MySQL
+2021/04/13 15:24:42 main.go:35: Init dataPath
+2021/04/13 15:24:42 main.go:45: Init routers
+2021/04/13 15:34:27 logs.go:24: init log success
+2021/04/13 15:34:27 main.go:22: Init config
+2021/04/13 15:34:27 main.go:29: Init MySQL
+2021/04/13 15:34:27 main.go:35: Init dataPath
+2021/04/13 15:34:27 main.go:45: Init routers
+2021/04/13 15:35:06 logs.go:24: init log success
+2021/04/13 15:35:06 main.go:22: Init config
+2021/04/13 15:35:06 main.go:29: Init MySQL
+2021/04/13 15:35:06 main.go:35: Init dataPath
+2021/04/13 15:35:06 main.go:45: Init routers
+2021/04/13 15:35:42 logs.go:24: init log success
+2021/04/13 15:35:42 main.go:22: Init config
+2021/04/13 15:35:42 main.go:29: Init MySQL
+2021/04/13 15:35:42 main.go:35: Init dataPath
+2021/04/13 15:35:42 main.go:45: Init routers
+2021/04/13 15:36:18 logs.go:24: init log success
+2021/04/13 15:36:18 main.go:22: Init config
+2021/04/13 15:36:18 main.go:29: Init MySQL
+2021/04/13 15:36:18 main.go:35: Init dataPath
+2021/04/13 15:36:18 main.go:45: Init routers
+2021/04/13 15:37:06 logs.go:24: init log success
+2021/04/13 15:37:06 main.go:22: Init config
+2021/04/13 15:37:06 main.go:29: Init MySQL
+2021/04/13 15:37:06 main.go:35: Init dataPath
+2021/04/13 15:37:06 main.go:45: Init routers
+2021/04/13 15:37:57 logs.go:24: init log success
+2021/04/13 15:37:57 main.go:22: Init config
+2021/04/13 15:37:57 main.go:29: Init MySQL
+2021/04/13 15:37:57 main.go:35: Init dataPath
+2021/04/13 15:37:57 main.go:45: Init routers
+2021/04/13 15:38:13 logs.go:24: init log success
+2021/04/13 15:38:13 main.go:22: Init config
+2021/04/13 15:38:13 main.go:29: Init MySQL
+2021/04/13 15:38:13 main.go:35: Init dataPath
+2021/04/13 15:38:13 main.go:45: Init routers
+2021/04/13 16:05:20 logs.go:24: init log success
+2021/04/13 16:05:20 main.go:22: Init config
+2021/04/13 16:05:20 main.go:29: Init MySQL
+2021/04/13 16:05:20 main.go:35: Init dataPath
+2021/04/13 16:05:20 main.go:45: Init routers
+2021/04/13 16:06:46 logs.go:24: init log success
+2021/04/13 16:06:46 main.go:22: Init config
+2021/04/13 16:06:46 main.go:29: Init MySQL
+2021/04/13 16:06:46 main.go:35: Init dataPath
+2021/04/13 16:06:46 main.go:45: Init routers
+2021/04/13 16:09:05 logs.go:24: init log success
+2021/04/13 16:09:05 main.go:22: Init config
+2021/04/13 16:09:05 main.go:29: Init MySQL
+2021/04/13 16:09:05 main.go:35: Init dataPath
+2021/04/13 16:09:05 main.go:45: Init routers
+2021/04/13 16:09:12 data_manage.go:60: DoAddData failed:  Error 1366: Incorrect string value: '\xE8\x8B\xA5\xE9\x80\x9A...' for column 'introduction' at row 1
+2021/04/13 16:09:19 data_manage.go:60: DoAddData failed:  Error 1366: Incorrect string value: '\xE8\x8B\xA5\xE9\x80\x9A...' for column 'introduction' at row 1
+2021/04/13 16:10:31 logs.go:24: init log success
+2021/04/13 16:10:31 main.go:22: Init config
+2021/04/13 16:10:31 main.go:29: Init MySQL
+2021/04/13 16:10:31 main.go:35: Init dataPath
+2021/04/13 16:10:31 main.go:45: Init routers
+2021/04/13 16:10:52 logs.go:24: init log success
+2021/04/13 16:10:52 main.go:22: Init config
+2021/04/13 16:10:52 main.go:29: Init MySQL
+2021/04/13 16:10:52 main.go:35: Init dataPath
+2021/04/13 16:10:52 main.go:45: Init routers
+2021/04/13 16:16:52 data_manage.go:60: DoAddData failed:  Error 1366: Incorrect string value: '\xE8\x8B\xA5\xE9\x80\x9A...' for column 'introduction' at row 1
+2021/04/13 16:28:02 root_datamanage.go:17: QueryDataByCondition failed:  Error 1103: Incorrect table name ''
+2021/04/13 16:28:02 data_manage.go:36: DoQueryData failed:  Error 1103: Incorrect table name ''
+2021/04/13 16:29:21 logs.go:24: init log success
+2021/04/13 16:29:21 main.go:22: Init config
+2021/04/13 16:29:21 main.go:29: Init MySQL
+2021/04/13 16:29:21 main.go:35: Init dataPath
+2021/04/13 16:29:21 main.go:45: Init routers
+2021/04/13 21:56:31 logs.go:24: init log success
+2021/04/13 21:56:31 main.go:22: Init config
+2021/04/13 21:56:31 main.go:29: Init MySQL
+2021/04/13 21:56:31 main.go:35: Init dataPath
+2021/04/13 21:56:31 main.go:45: Init routers
+2021/04/13 21:57:27 logs.go:24: init log success
+2021/04/13 21:57:27 main.go:22: Init config
+2021/04/13 21:57:27 main.go:29: Init MySQL
+2021/04/13 21:57:27 main.go:35: Init dataPath
+2021/04/13 21:57:27 main.go:45: Init routers
+2021/04/13 22:15:21 logs.go:24: init log success
+2021/04/13 22:15:21 main.go:22: Init config
+2021/04/13 22:15:21 main.go:29: Init MySQL
+2021/04/13 22:15:21 main.go:35: Init dataPath
+2021/04/13 22:15:21 main.go:45: Init routers
+2021/04/13 22:20:02 logs.go:24: init log success
+2021/04/13 22:20:02 main.go:22: Init config
+2021/04/13 22:20:02 main.go:29: Init MySQL
+2021/04/13 22:20:02 main.go:35: Init dataPath
+2021/04/13 22:20:02 main.go:45: Init routers
+2021/04/13 22:22:07 logs.go:24: init log success
+2021/04/13 22:22:07 main.go:22: Init config
+2021/04/13 22:22:07 main.go:29: Init MySQL
+2021/04/13 22:22:07 main.go:35: Init dataPath
+2021/04/13 22:22:07 main.go:45: Init routers
+2021/04/13 22:22:16 data_query.go:46: parse id[    ] failed:  strconv.Atoi: parsing "": invalid syntax
+2021/04/13 22:22:39 logs.go:24: init log success
+2021/04/13 22:22:39 main.go:22: Init config
+2021/04/13 22:22:39 main.go:29: Init MySQL
+2021/04/13 22:22:39 main.go:35: Init dataPath
+2021/04/13 22:22:39 main.go:45: Init routers
+2021/04/13 22:25:07 logs.go:24: init log success
+2021/04/13 22:25:07 main.go:22: Init config
+2021/04/13 22:25:07 main.go:29: Init MySQL
+2021/04/13 22:25:07 main.go:35: Init dataPath
+2021/04/13 22:25:07 main.go:45: Init routers
+2021/04/13 22:26:35 logs.go:24: init log success
+2021/04/13 22:26:35 main.go:22: Init config
+2021/04/13 22:26:35 main.go:29: Init MySQL
+2021/04/13 22:26:35 main.go:35: Init dataPath
+2021/04/13 22:26:35 main.go:45: Init routers
+2021/04/13 22:30:09 logs.go:24: init log success
+2021/04/13 22:30:09 main.go:22: Init config
+2021/04/13 22:30:09 main.go:29: Init MySQL
+2021/04/13 22:30:09 main.go:35: Init dataPath
+2021/04/13 22:30:09 main.go:45: Init routers
+2021/04/13 22:30:58 logs.go:24: init log success
+2021/04/13 22:30:58 main.go:22: Init config
+2021/04/13 22:30:58 main.go:29: Init MySQL
+2021/04/13 22:30:58 main.go:35: Init dataPath
+2021/04/13 22:30:58 main.go:45: Init routers
+2021/04/13 22:36:13 logs.go:24: init log success
+2021/04/13 22:36:13 main.go:22: Init config
+2021/04/13 22:36:13 main.go:29: Init MySQL
+2021/04/13 22:36:13 main.go:35: Init dataPath
+2021/04/13 22:36:13 main.go:45: Init routers
+2021/04/13 22:36:56 logs.go:24: init log success
+2021/04/13 22:36:56 main.go:22: Init config
+2021/04/13 22:36:56 main.go:29: Init MySQL
+2021/04/13 22:36:56 main.go:35: Init dataPath
+2021/04/13 22:36:56 main.go:45: Init routers
+2021/04/13 22:40:42 logs.go:24: init log success
+2021/04/13 22:40:42 main.go:22: Init config
+2021/04/13 22:40:42 main.go:29: Init MySQL
+2021/04/13 22:40:42 main.go:35: Init dataPath
+2021/04/13 22:40:42 main.go:45: Init routers
+2021/04/13 22:56:48 logs.go:24: init log success
+2021/04/13 22:56:48 main.go:22: Init config
+2021/04/13 22:56:48 main.go:29: Init MySQL
+2021/04/13 22:56:48 main.go:35: Init dataPath
+2021/04/13 22:56:48 main.go:45: Init routers
+2021/04/13 22:57:54 logs.go:24: init log success
+2021/04/13 22:57:54 main.go:22: Init config
+2021/04/13 22:57:54 main.go:29: Init MySQL
+2021/04/13 22:57:54 main.go:35: Init dataPath
+2021/04/13 22:57:54 main.go:45: Init routers
+2021/04/13 23:37:38 logs.go:24: init log success
+2021/04/13 23:37:38 main.go:22: Init config
+2021/04/13 23:37:38 main.go:29: Init MySQL
+2021/04/13 23:37:38 main.go:35: Init dataPath
+2021/04/13 23:37:38 main.go:45: Init routers
+2021/04/13 23:40:57 logs.go:24: init log success
+2021/04/13 23:40:57 main.go:22: Init config
+2021/04/13 23:40:57 main.go:29: Init MySQL
+2021/04/13 23:40:57 main.go:35: Init dataPath
+2021/04/13 23:40:57 main.go:45: Init routers
+2021/04/13 23:44:42 logs.go:24: init log success
+2021/04/13 23:44:42 main.go:22: Init config
+2021/04/13 23:44:42 main.go:29: Init MySQL
+2021/04/13 23:44:42 main.go:35: Init dataPath
+2021/04/13 23:44:42 main.go:45: Init routers
+2021/04/23 16:03:48 logs.go:24: init log success
+2021/04/23 16:03:48 main.go:27: Init config
+2021/04/23 16:03:48 main.go:34: Init MySQL
+2021/04/23 16:03:48 main.go:40: Init dataPath
+2021/04/23 16:03:48 main.go:50: Init routers
